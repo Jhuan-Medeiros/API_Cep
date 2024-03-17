@@ -21,3 +21,9 @@ form{
     border-style: solid;
     border-color:  black;
 }
+
+input{
+    background-color: white;
+    border: solid black 2px;
+    width: 20vw;
+}
