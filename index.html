@@ -16,28 +16,37 @@
 </head>
 
 <body>
-    <!-- Inicio do formulario -->
-    <form method="get">
-        <div class="elementos">
-            <label>Cep: <br>
-                <input name="cep" type="text" id="cep" value="" maxlength="9" /></label><br />
-            <label>Rua: <br>
-                <input name="rua" type="text" id="rua" disabled /></label><br />
-            <label>Bairro: <br>
-                <input name="bairro" type="text" id="bairro" /></label><br />
-            <label>Cidade: <br>
-                <input name="cidade" type="text" id="cidade" disabled /></label><br />
-            <label>Estado: <br>
-                <input name="uf" type="text" id="uf" disabled/></label><br />
-            <label>IBGE: <br>
-                <input name="ibge" type="text" id="ibge" disabled/></label><br />
-            <label>Número: <br>
-                <input name="numero" type="text" id="numero"/></label><br />
-            <div id="botao">
-                <button type="submit"> <a href="https://github.com/Jhuan-Medeiros">enviar</a></button>
-            </div>
+    
+    <div class="navBar">
+        <div class="NavElements">
+            <h1>Consulta de Cep</h1>
         </div>
-    </form>
+    </div>
+
+        <!-- Inicio do formulario -->
+    <div id="form-fundo">
+        <form method="get">
+            <div class="elementos">
+                <label>Cep: <br>
+                    <input name="cep" type="text" id="cep" value="" maxlength="9" /></label><br />
+                <label>Rua: <br>
+                    <input name="rua" type="text" id="rua" disabled /></label><br />
+                <label>Bairro: <br>
+                    <input name="bairro" type="text" id="bairro" /></label><br />
+                <label>Cidade: <br>
+                    <input name="cidade" type="text" id="cidade" disabled /></label><br />
+                <label>Estado: <br>
+                    <input name="uf" type="text" id="uf" disabled /></label><br />
+                <label>IBGE: <br>
+                    <input name="ibge" type="text" id="ibge" disabled /></label><br />
+                <label>Número: <br>
+                    <input name="numero" type="text" id="numero" /></label><br />
+                <div id="botao">
+                    <button type="submit"> <a href="https://github.com/Jhuan-Medeiros">enviar</a></button>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
